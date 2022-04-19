@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $font-primary;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}

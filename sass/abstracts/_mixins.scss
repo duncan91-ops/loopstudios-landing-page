@@ -1,0 +1,16 @@
+@mixin borderBottom {
+  &::after {
+    content: "";
+    display: none;
+    position: absolute;
+    bottom: -30%;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background-color: $primaryWhite;
+  }
+
+  &:hover::after {
+    display: block;
+  }
+}

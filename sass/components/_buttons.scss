@@ -1,0 +1,24 @@
+.btn-primary {
+  display: inline-block;
+  border: 2px solid $secondaryGray;
+  padding: 1.5rem 6rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  word-spacing: 1rem;
+  color: $primaryBlack;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $primaryBlack;
+    color: $primaryWhite;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .btn-primary {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
